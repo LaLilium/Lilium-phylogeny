@@ -1,0 +1,16 @@
+#nexus
+begin sets;
+  charset p1_aligned_atpi_sequence = DNA,, 1-1048;
+  charset p2_aligned_matk_sequence = DNA,, 1049-2635;
+  charset p3_aligned_ndhf_sequence = DNA,, 2636-4899;
+  charset p4_aligned_ndhj_sequence = DNA,, 4900-5376;
+  charset p5_aligned_psba_sequence = DNA,, 5377-6441;
+  charset p6_aligned_rbcl_sequence = DNA,, 6442-7905;
+  charpartition mymodels =
+    GTR{0.641311,2.5316,0.387037,1.27239,1.8439}+F{0.368408,0.158705,0.115688,0.357198}: p1_aligned_atpi_sequence{0.407096},
+    GTR{0.619814,1.78869,0.192387,0.629211,1.91747}+F{0.375194,0.149904,0.156564,0.318338}: p2_aligned_matk_sequence{0.326179},
+    GTR{0.483785,2.3351,0.399184,0.591119,2.19979}+F{0.390505,0.167735,0.151556,0.290204}: p3_aligned_ndhf_sequence{0.296143},
+    GTR{0.516483,2.51507,0.305248,0.480931,2.68394}+F{0.316065,0.212899,0.168763,0.302273}: p4_aligned_ndhj_sequence{0.160929},
+    GTR{2.59427,99.7595,4.89537,0.0001,40.2564}+F{0.355906,0.215417,0.19671,0.231968}: p5_aligned_psba_sequence{0.091706},
+    GTR{2.0366,3.93107,0.561498,1.09998,6.21646}+F{0.282802,0.188565,0.246359,0.282274}: p6_aligned_rbcl_sequence{0.159096};
+end;

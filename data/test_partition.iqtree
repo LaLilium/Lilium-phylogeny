@@ -1,0 +1,190 @@
+IQ-TREE 3.0.1 built May  5 2025
+
+Partition file name: ./new_partitions.txt
+Input file name: concatenated.out
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 506394
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used partition models please also cite:
+
+Olga Chernomor, Arndt von Haeseler, and Bui Quang Minh (2016)
+Terrace aware data structure for phylogenomic inference from
+supermatrices. Syst. Biol., 65:997-1008.
+https://doi.org/10.1093/sysbio/syw037
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 38 taxa with 6 partitions and 7905 total sites (0% missing data)
+
+  ID	Type	Seq	Site	Unique	Infor	Invar	Const	Name
+   1	DNA	38	1048	228	100	858	858	p1_aligned_atpi_sequence
+   2	DNA	38	1587	189	198	1205	1205	p2_aligned_matk_sequence
+   3	DNA	38	2264	237	257	1796	1796	p3_aligned_ndhf_sequence
+   4	DNA	38	477	45	29	411	411	p4_aligned_ndhj_sequence
+   5	DNA	38	1065	55	47	986	986	p5_aligned_psba_sequence
+   6	DNA	38	1464	104	106	1298	1298	p6_aligned_rbcl_sequence
+
+Column meanings:
+  Unique: Number of unique site patterns
+  Infor:  Number of parsimony-informative sites
+  Invar:  Number of invariant sites
+  Const:  Number of constant sites (can be subset of invariant sites)
+
+SUBSTITUTION PROCESS
+--------------------
+
+Edge-linked-proportional partition model with separate substitution models and separate rates across sites
+
+  ID  Model           Speed  Parameters
+   1  GTR+F          1.5915  GTR{0.641311,2.5316,0.387037,1.27239,1.8439}+F{0.368408,0.158705,0.115688,0.357198}
+   2  GTR+F          1.2751  GTR{0.619814,1.78869,0.192387,0.629211,1.91747}+F{0.375194,0.149904,0.156564,0.318338}
+   3  GTR+F          1.1577  GTR{0.483785,2.3351,0.399184,0.591119,2.19979}+F{0.390505,0.167735,0.151556,0.290204}
+   4  GTR+F          0.6291  GTR{0.516483,2.51507,0.305248,0.480931,2.68394}+F{0.316065,0.212899,0.168763,0.302273}
+   5  GTR+F          0.3585  GTR{2.59427,99.7595,4.89537,0.0001,40.2564}+F{0.355906,0.215417,0.19671,0.231968}
+   6  GTR+F          0.6220  GTR{2.0366,3.93107,0.561498,1.09998,6.21646}+F{0.282802,0.188565,0.246359,0.282274}
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -20186.0685 (s.e. 259.4550)
+Unconstrained log-likelihood (without tree): -20415.3737
+Number of free parameters (#branches + #model parameters): 126
+Akaike information criterion (AIC) score: 40624.1369
+Corrected Akaike information criterion (AICc) score: 40628.2516
+Bayesian information criterion (BIC) score: 41503.0185
+
+Mixture-based log-likelihood of the tree: -20443.0051
+Marginal Akaike information criterion (mAIC) score: 41138.0101
+
+Total tree length (sum of branch lengths): 0.2558
+Sum of internal branch lengths: 0.1162 (45.4426% of tree length)
+
+WARNING: 6 near-zero internal branches (<0.0001) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Asparagus_officinalis' is drawn at root
+
++--------------Asparagus_officinalis
+|
++-----------------Hyacinthoides_non-scripta
+|
+|        +--------------------------Iris_germanica
++--------|
+         |                                                                +**Lilium_amabile
+         |                                                             +**|
+         |                                                             |  |     +--Lilium_callosum
+         |                                                             |  |  +--|
+         |                                                             |  |  |  +**Lilium_concolor
+         |                                                             |  +**|
+         |                                                             |     +**Lilium_pumilum
+         |                                                          +--|
+         |                                                          |  +--Lilium_lancifolium
+         |                                                       +--|
+         |                                                       |  +--Lilium_pensylvanicum
+         |                                                    +--|
+         |                                                    |  |  +--Lilium_cernuum
+         |                                                    |  +**|
+         |                                                    |     |  +--Lilium_hansonii
+         |                                                    |     +--|
+         |                                                    |        +**Lilium_tsingtauense
+         |                                                 +**|
+         |                                                 |  +--Lilium_bulbiferum
+         |                                              +--|
+         |                                              |  |  +--Lilium_davidii
+         |                                              |  +--|
+         |                                              |     +--Lilium_martagon
+         |                                           +--|
+         |                                           |  |  +--Lilium_brownii
+         |                                           |  +--|
+         |                                           |     |  +--Lilium_formosanum
+         |                                           |     +**|
+         |                                           |        +--Lilium_longiflorum
+         +-------------------------------------------|
+                                                     |                       +--Lilium_apertum
+                                                     |                    +--|
+                                                     |                    |  +--Lilium_pardanthinum
+                                                     |                 +--|
+                                                     |                 |  |  +--Lilium_bakerianum
+                                                     |                 |  +--|
+                                                     |                 |     |  +--Lilium_nepalense
+                                                     |                 |     +--|
+                                                     |                 |        +--Lilium_taliense
+                                                     |              +--|
+                                                     |              |  |  +--Lilium_distichum
+                                                     |              |  +--|
+                                                     |              |     +--Lilium_wardii
+                                                     |           +--|
+                                                     |           |  |           +**Lilium_henryi
+                                                     |           |  |        +--|
+                                                     |           |  |        |  +**Lilium_sargentiae
+                                                     |           |  |     +**|
+                                                     |           |  |     |  +--Lilium_regale
+                                                     |           |  |  +--|
+                                                     |           |  |  |  +--Lilium_leucanthum
+                                                     |           |  +--|
+                                                     |           |     +--Lilium_rosthornii
+                                                     |        +--|
+                                                     |        |  |  +--Lilium_lankongense
+                                                     |        |  +--|
+                                                     |        |     |  +--Lilium_lophophorum
+                                                     |        |     +--|
+                                                     |        |        +--Lilium_nanum
+                                                     |     +--|
+                                                     |     |  +--Lilium_philadelphicum
+                                                     |  +--|
+                                                     |  |  |     +--Lilium_pardalinum
+                                                     |  |  |  +--|
+                                                     |  |  |  |  +--Lilium_washingtonianum
+                                                     |  |  +--|
+                                                     |  |     +--Lilium_superbum
+                                                     +--|
+                                                        +--Lilium_candidum
+
+Tree in newick format:
+
+(Asparagus_officinalis:0.0267506366,Hyacinthoides_non-scripta:0.0321610312,(Iris_germanica:0.0471919038,((((((((Lilium_amabile:0.0000010001,((Lilium_callosum:0.0002642150,Lilium_concolor:0.0000010001):0.0002642086,Lilium_pumilum:0.0000010001):0.0000010001):0.0000010001,Lilium_lancifolium:0.0002640718):0.0002645956,Lilium_pensylvanicum:0.0002633080):0.0001315865,(Lilium_cernuum:0.0001317976,(Lilium_hansonii:0.0002633466,Lilium_tsingtauense:0.0000010001):0.0001316410):0.0000010001):0.0005263979,Lilium_bulbiferum:0.0010576019):0.0000010001,(Lilium_davidii:0.0002642419,Lilium_martagon:0.0010577440):0.0001320017):0.0007532445,(Lilium_brownii:0.0002637153,(Lilium_formosanum:0.0005274945,Lilium_longiflorum:0.0001318105):0.0000010001):0.0026022148):0.0008912618,((((((((Lilium_apertum:0.0012426815,Lilium_pardanthinum:0.0011449236):0.0002744190,(Lilium_bakerianum:0.0031727728,(Lilium_nepalense:0.0007472880,Lilium_taliense:0.0003134786):0.0005295029):0.0007927524):0.0008352840,(Lilium_distichum:0.0030404386,Lilium_wardii:0.0018415033):0.0002772504):0.0001995367,((((Lilium_henryi:0.0000010001,Lilium_sargentiae:0.0000010001):0.0002642108,Lilium_regale:0.0003959987):0.0000010001,Lilium_leucanthum:0.0005279703):0.0005292231,Lilium_rosthornii:0.0014632508):0.0014477489):0.0002698622,(Lilium_lankongense:0.0017273414,(Lilium_lophophorum:0.0010112994,Lilium_nanum:0.0007065809):0.0013772148):0.0013231225):0.0001515212,Lilium_philadelphicum:0.0048648265):0.0009522810,((Lilium_pardalinum:0.0008544339,Lilium_washingtonianum:0.0007331083):0.0013453420,Lilium_superbum:0.0021572196):0.0034015694):0.0029567373,Lilium_candidum:0.0027495453):0.0005277097):0.0764118805):0.0169359860);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t test_partition.treefile -p test_partition.best_model.nex
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s concatenated.out --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s concatenated.out --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Mar 12 10:18:18 2026
+Total CPU time used: 11.7106 seconds (0h:0m:11s)
+Total wall-clock time used: 13.1723 seconds (0h:0m:13s)
+

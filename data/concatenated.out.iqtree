@@ -1,0 +1,262 @@
+IQ-TREE 3.0.1 built May  5 2025
+
+Input file name: concatenated.out
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 181052
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 38 sequences with 7905 nucleotide sites
+Number of constant sites: 6554 (= 82.9096% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 6554 (= 82.9096% of all sites)
+Number of parsimony informative sites: 737
+Number of distinct site patterns: 589
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TVM+F+I+R3
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+TVM+F+I+R3       -20257.387   40684.774 +    0.694   40686.644 +    0.699   41277.671 +    0.964
+K3Pu+F+I+R3      -20270.209   40706.418 - 1.39e-05   40708.201 - 1.46e-05   41285.363 -   0.0206
+GTR+F+I+R3       -20257.207   40686.414 +    0.306   40688.328 +    0.301   41286.285 -    0.013
+TPM2u+F+I+R3     -20272.462   40710.925 - 1.46e-06   40712.708 - 1.53e-06   41289.870 -  0.00216
+TIM+F+I+R3       -20270.025   40708.051 - 6.12e-06   40709.877 -  6.3e-06   41293.972 - 0.000278
+TIM2+F+I+R3      -20272.282   40712.565 - 6.41e-07   40714.391 -  6.6e-07   41298.486 - 2.91e-05
+HKY+F+I+R3       -20293.766   40751.533 - 2.21e-15   40753.273 - 2.38e-15   41323.503 - 1.08e-10
+TPM3u+F+I+R3     -20292.918   40751.836 -  1.9e-15   40753.619 -    2e-15   41330.782 - 2.83e-12
+TN+F+I+R3        -20293.569   40753.138 - 9.92e-16   40754.921 - 1.04e-15   41332.084 - 1.47e-12
+TIM3+F+I+R3      -20292.741   40753.483 - 8.35e-16   40755.309 - 8.59e-16   41339.404 - 3.79e-14
+F81+F+I+R3       -20699.851   41561.702 - 2.62e-191   41563.400 - 2.88e-191   42126.698 - 4.17e-185
+K3Pu+I+R3        -20725.248   41610.497 - 6.66e-202   41612.153 - 7.46e-202   42168.517 - 3.46e-194
+K3P+I+R3         -20725.317   41610.635 - 6.22e-202   41612.291 - 6.96e-202   42168.655 - 3.23e-194
+K3P+I+R3         -20725.317   41610.635 - 6.22e-202   41612.291 - 6.96e-202   42168.655 - 3.23e-194
+TVM+I+R3         -20717.601   41599.202 - 1.89e-199   41600.942 - 2.03e-199   42171.173 - 9.17e-195
+TVMe+I+R3        -20717.660   41599.321 - 1.78e-199   41601.061 - 1.91e-199   42171.291 - 8.65e-195
+TVMe+I+R3        -20717.660   41599.321 - 1.78e-199   41601.061 - 1.91e-199   42171.291 - 8.65e-195
+TIM+I+R3         -20724.163   41610.327 - 7.25e-202   41612.025 - 7.95e-202   42175.322 - 1.15e-195
+TIMe+I+R3        -20724.223   41610.446 - 6.83e-202   41612.144 - 7.49e-202   42175.441 - 1.09e-195
+TIMe+I+R3        -20724.223   41610.446 - 6.83e-202   41612.144 - 7.49e-202   42175.441 - 1.09e-195
+GTR+I+R3         -20717.066   41600.132 - 1.19e-199   41601.915 - 1.25e-199   42179.078 - 1.76e-196
+SYM+I+R3         -20717.114   41600.228 - 1.13e-199   41602.011 - 1.19e-199   42179.174 - 1.68e-196
+SYM+I+R3         -20717.114   41600.228 - 1.13e-199   41602.011 - 1.19e-199   42179.174 - 1.68e-196
+HKY+I+R3         -20736.124   41630.248 - 3.42e-206   41631.864 - 3.91e-206   42181.293 - 5.82e-197
+TPM3u+I+R3       -20731.656   41623.311 - 1.1e-204   41624.968 - 1.23e-204   42181.331 - 5.71e-197
+K2P+I+R3         -20736.201   41630.403 - 3.17e-206   41632.018 - 3.62e-206   42181.448 - 5.39e-197
+K2P+I+R3         -20736.201   41630.403 - 3.17e-206   41632.018 - 3.62e-206   42181.448 - 5.39e-197
+TPM3+I+R3        -20731.738   41623.477 - 1.01e-204   41625.133 - 1.13e-204   42181.497 - 5.26e-197
+TPM3+I+R3        -20731.738   41623.477 - 1.01e-204   41625.133 - 1.13e-204   42181.497 - 5.26e-197
+TIM3+I+R3        -20730.026   41622.052 - 2.06e-204   41623.750 - 2.26e-204   42187.047 - 3.28e-198
+TIM3e+I+R3       -20730.068   41622.136 - 1.98e-204   41623.834 - 2.17e-204   42187.131 - 3.14e-198
+TIM3e+I+R3       -20730.068   41622.136 - 1.98e-204   41623.834 - 2.17e-204   42187.131 - 3.14e-198
+TN+I+R3          -20735.058   41630.116 - 3.66e-206   41631.772 - 4.1e-206   42188.136 - 1.9e-198
+TNe+I+R3         -20735.121   41630.241 - 3.43e-206   41631.898 - 3.85e-206   42188.261 - 1.79e-198
+TNe+I+R3         -20735.121   41630.241 - 3.43e-206   41631.898 - 3.85e-206   42188.261 - 1.79e-198
+TPM2u+I+R3       -20735.292   41630.584 - 2.89e-206   41632.240 - 3.24e-206   42188.604 - 1.5e-198
+TPM2+I+R3        -20735.363   41630.725 - 2.7e-206   41632.382 - 3.02e-206   42188.745 - 1.4e-198
+TPM2+I+R3        -20735.363   41630.725 - 2.7e-206   41632.382 - 3.02e-206   42188.745 - 1.4e-198
+TIM2+I+R3        -20734.029   41630.059 - 3.76e-206   41631.757 - 4.13e-206   42195.054 - 5.98e-200
+TIM2e+I+R3       -20734.086   41630.172 - 3.56e-206   41631.870 - 3.9e-206   42195.167 - 5.65e-200
+TIM2e+I+R3       -20734.086   41630.172 - 3.56e-206   41631.870 - 3.9e-206   42195.167 - 5.65e-200
+F81+I+R3         -21097.424   42350.847 -        0   42352.422 -        0   42894.917 -        0
+JC+I+R3          -21097.490   42350.980 -        0   42352.555 -        0   42895.050 -        0
+JC+I+R3          -21097.490   42350.980 -        0   42352.555 -        0   42895.050 -        0
+JC+I+R4          -21097.498   42354.996 -        0   42356.653 -        0   42913.016 -        0
+JC+R2            -21121.112   42392.224 -        0   42393.681 -        0   42915.368 -        0
+JC+R3            -21117.520   42389.040 -        0   42390.574 -        0   42926.134 -        0
+JC+I+G4          -21127.858   42405.717 -        0   42407.173 -        0   42928.861 -        0
+JC+G4            -21132.365   42412.731 -        0   42414.149 -        0   42928.899 -        0
+JC+I+R2          -21123.512   42399.025 -        0   42400.520 -        0   42929.144 -        0
+JC+I             -21139.980   42427.960 -        0   42429.378 -        0   42944.129 -        0
+JC               -21332.757   42811.515 -        0   42812.894 -        0   43320.708 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TVM+F+I+R3
+
+Rate parameter R:
+
+  A-C: 0.6221
+  A-G: 2.6141
+  A-T: 0.3403
+  C-G: 0.5899
+  C-T: 2.6141
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.355
+  pi(C) = 0.1765
+  pi(G) = 0.1737
+  pi(T) = 0.2948
+
+Rate matrix Q:
+
+  A    -0.753    0.1244    0.5148    0.1137
+  C    0.2503     -1.24    0.1162    0.8734
+  G     1.052     0.118    -1.504    0.3341
+  T    0.1369     0.523    0.1969   -0.8568
+
+Model of rate heterogeneity: Invar+FreeRate with 3 categories
+Proportion of invariable sites: 0.539
+Site proportion and rates:  (0.2927,1.111) (0.1642,2.535) (0.004192,61.7)
+
+ Category  Relative_rate  Proportion
+  0         0              0.539
+  1         1.111          0.2927
+  2         2.535          0.1642
+  3         61.7           0.004192
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -20253.1015 (s.e. 247.3930)
+Unconstrained log-likelihood (without tree): -22852.6028
+Number of free parameters (#branches + #model parameters): 85
+Akaike information criterion (AIC) score: 40676.2030
+Corrected Akaike information criterion (AICc) score: 40678.0728
+Bayesian information criterion (BIC) score: 41269.0993
+
+Total tree length (sum of branch lengths): 0.3367
+Sum of internal branch lengths: 0.1554 (46.1647% of tree length)
+
+WARNING: 7 near-zero internal branches (<0.0001) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Asparagus_officinalis' is drawn at root
+
++--------------Asparagus_officinalis
+|
++----------------Hyacinthoides_non-scripta
+|
+|       +---------------------------Iris_germanica
++-------|
+        |                                                                         +**Lilium_amabile
+        |                                                                      +**|
+        |                                                                      |  |     +--Lilium_callosum
+        |                                                                      |  |  +--|
+        |                                                                      |  |  |  +**Lilium_concolor
+        |                                                                      |  +**|
+        |                                                                      |     +**Lilium_pumilum
+        |                                                                   +--|
+        |                                                                   |  +--Lilium_lancifolium
+        |                                                                +--|
+        |                                                                |  +--Lilium_pensylvanicum
+        |                                                             +--|
+        |                                                             |  |  +--Lilium_cernuum
+        |                                                             |  +**|
+        |                                                             |     |  +--Lilium_hansonii
+        |                                                             |     +--|
+        |                                                             |        +**Lilium_tsingtauense
+        |                                                          +**|
+        |                                                          |  +--Lilium_bulbiferum
+        |                                                       +--|
+        |                                                       |  +--Lilium_davidii
+        |                                                    +--|
+        |                                                    |  +--Lilium_martagon
+        |                                                 +--|
+        |                                                 |  |     +--Lilium_brownii
+        |                                                 |  |  +**|
+        |                                                 |  |  |  +--Lilium_longiflorum
+        |                                                 |  +--|
+        |                                                 |     +--Lilium_formosanum
+        |                                              +--|
+        |                                              |  +--Lilium_candidum
+        +----------------------------------------------|
+                                                       |                    +--Lilium_apertum
+                                                       |                 +--|
+                                                       |                 |  +--Lilium_pardanthinum
+                                                       |              +--|
+                                                       |              |  |  +--Lilium_bakerianum
+                                                       |              |  +--|
+                                                       |              |     |  +--Lilium_nepalense
+                                                       |              |     +--|
+                                                       |              |        +--Lilium_taliense
+                                                       |           +--|
+                                                       |           |  |  +--Lilium_distichum
+                                                       |           |  +--|
+                                                       |           |     +--Lilium_wardii
+                                                       |        +**|
+                                                       |        |  |           +**Lilium_henryi
+                                                       |        |  |        +--|
+                                                       |        |  |        |  +**Lilium_sargentiae
+                                                       |        |  |     +**|
+                                                       |        |  |     |  +--Lilium_regale
+                                                       |        |  |  +--|
+                                                       |        |  |  |  +--Lilium_leucanthum
+                                                       |        |  +--|
+                                                       |        |     +--Lilium_rosthornii
+                                                       |     +--|
+                                                       |     |  +--Lilium_philadelphicum
+                                                       |  +--|
+                                                       |  |  |  +--Lilium_lankongense
+                                                       |  |  +--|
+                                                       |  |     |  +--Lilium_lophophorum
+                                                       |  |     +--|
+                                                       |  |        +--Lilium_nanum
+                                                       +--|
+                                                          |     +--Lilium_pardalinum
+                                                          |  +--|
+                                                          |  |  +--Lilium_washingtonianum
+                                                          +--|
+                                                             +--Lilium_superbum
+
+Tree in newick format:
+
+(Asparagus_officinalis:0.0359878496,Hyacinthoides_non-scripta:0.0419781711,(Iris_germanica:0.0663419704,((((((((((Lilium_amabile:0.0000007318,((Lilium_callosum:0.0002772353,Lilium_concolor:0.0000007318):0.0002772910,Lilium_pumilum:0.0000007318):0.0000007318):0.0000007318,Lilium_lancifolium:0.0002772222):0.0002783169,Lilium_pensylvanicum:0.0002772476):0.0001381152,(Lilium_cernuum:0.0001385244,(Lilium_hansonii:0.0002795994,Lilium_tsingtauense:0.0000007318):0.0001382970):0.0000007318):0.0005587041,Lilium_bulbiferum:0.0011257758):0.0000007318,Lilium_davidii:0.0004179856):0.0002826653,Lilium_martagon:0.0010338473):0.0007112466,((Lilium_brownii:0.0002896818,Lilium_longiflorum:0.0001431526):0.0000007318,Lilium_formosanum:0.0005787377):0.0027376911):0.0014811077,Lilium_candidum:0.0029461327):0.0005233555,(((((((Lilium_apertum:0.0013535469,Lilium_pardanthinum:0.0012387902):0.0002991652,(Lilium_bakerianum:0.0034380221,(Lilium_nepalense:0.0008940060,Lilium_taliense:0.0002992369):0.0005878688):0.0008507701):0.0008743200,(Lilium_distichum:0.0033780798,Lilium_wardii:0.0020103308):0.0002871381):0.0002161141,((((Lilium_henryi:0.0000007318,Lilium_sargentiae:0.0000007318):0.0003043476,Lilium_regale:0.0004451710):0.0000007318,Lilium_leucanthum:0.0005702302):0.0005775021,Lilium_rosthornii:0.0015919474):0.0016000904):0.0000017196,Lilium_philadelphicum:0.0057673403):0.0001789484,(Lilium_lankongense:0.0020195191,(Lilium_lophophorum:0.0011504540,Lilium_nanum:0.0008010414):0.0015797169):0.0014416814):0.0009051224,((Lilium_pardalinum:0.0008885010,Lilium_washingtonianum:0.0007417690):0.0014206054,Lilium_superbum:0.0022667882):0.0040338494):0.0030399422):0.1101482394):0.0202566813);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t concatenated.out.treefile -m "TVM{0.62208,2.61414,0.340321,0.58986}+F{0.355006,0.176495,0.173741,0.294758}+I{0.538954}+R3{0.292684,1.11135,0.16417,2.53451,0.00419174,61.7007}" --length 7905
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s concatenated.out --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s concatenated.out --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Mon Mar  9 17:23:54 2026
+Total CPU time used: 15.0256 seconds (0h:0m:15s)
+Total wall-clock time used: 14.9715 seconds (0h:0m:14s)
+

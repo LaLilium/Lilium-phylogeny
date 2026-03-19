@@ -1,0 +1,6 @@
+p1_aligned_atpi_sequence = 1-1048
+p2_aligned_matk_sequence = 1049-2635
+p3_aligned_ndhf_sequence = 2636-4899
+p4_aligned_ndhj_sequence = 4900-5376
+p5_aligned_psba_sequence = 5377-6441
+p6_aligned_rbcl_sequence = 6442-7905
