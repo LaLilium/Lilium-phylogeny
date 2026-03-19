@@ -1,2 +1,3 @@
 # Lilium-phylogeny
-test
+
+Learning skills using lily genomes.
