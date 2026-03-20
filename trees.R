@@ -70,7 +70,7 @@ Lilium_martagon:-0.00020);"
 
 PhyloTree2 <- read.tree(text = phylo_tree)
 
-plot(read.tree("/Users/Elena/Documents/lilium_project/trees/clustalo-I20260211-111647-0292-93438347-p2m.tree"))
+plot(read.tree("your/filepath/here/clustalo-I20260211-111647-0292-93438347-p2m.tree"))
 
 plot(GuideTree1)
 plot(PhyloTree2)
@@ -410,7 +410,7 @@ plot(GUIDE_atpi)
 
 
 # read in alignment
-setwd("/Users/Elena/Documents/lilium_project/alignment/")
+setwd("your/filepath/here/alignment")
 #list.files()
 
 install.packages("EnvNJ")
@@ -471,7 +471,7 @@ fastaconc(
   out.file = "lilium_merged_final.fasta"
 )
 
-setwd("C:/Users/Elena/Documents/lilium_project/alignment/individual_species")
+setwd("your/filepath/here/individual_species")
 
 
 
